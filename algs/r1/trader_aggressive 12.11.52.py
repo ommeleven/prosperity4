@@ -10,7 +10,7 @@ Differences from base:
 - Larger order sizes for takes (30 instead of 20)
 """
 
-from datamodel import (
+from algs.r1.datamodel import (
     OrderDepth, UserId, TradingState, Order, ConversionObservation,
     Listing, Observation, Trade, ProsperityEncoder, Symbol, Product, Position
 )
